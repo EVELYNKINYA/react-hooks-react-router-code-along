@@ -302,7 +302,7 @@ We have made great progress so far!
 Now that we have the tools to enable routing, let's look into how we can enable
 users to trigger our `Route`s without requiring a manual change of the address
 bar.
-
+ 
 ### Links and NavLinks
 
 What good are routes if users don't know how to find them or what they are?
@@ -436,6 +436,7 @@ ReactDOM.render(
       <Route exact path="/login">
         <Login />
       </Route>
+      
       <Route exact path="/">
         <Home />
       </Route>
@@ -454,7 +455,7 @@ components.
 
 ### Refactoring
 
-In anticipation of a growing codebase, let's refactor by removing the components
+In anticipation of a growing codebase, let's ref actor by removing the components
 we defined in `index.js` and placing them in their own files in
 `src/components`. You can also see the completed version of this code in the
 solution branch.
